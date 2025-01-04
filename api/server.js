@@ -1,7 +1,10 @@
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
-  if (req.method === "POST") {
+  if (req.method === "GET") {
+    console.log("Get api call");
+    res.status(200).send("Successful api called.");
+  } else if (req.method === "POST") {
     const { from_email, from_name, subject, message } = req.body;
 
     const transporter = nodemailer.createTransport({
