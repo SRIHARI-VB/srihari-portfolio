@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
 import { Snackbar, CircularProgress } from "@mui/material";
 import axios from "axios";
 
@@ -148,15 +147,12 @@ const Contact = () => {
     const formData = new FormData(form.current);
     setIsLoading(true);
     try {
-      const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/send-email`,
-        {
-          from_email: formData.get("from_email"),
-          from_name: formData.get("from_name"),
-          subject: formData.get("subject"),
-          message: formData.get("message"),
-        }
-      );
+      const response = await axios.post("/api/send-email", {
+        from_email: formData.get("from_email"),
+        from_name: formData.get("from_name"),
+        subject: formData.get("subject"),
+        message: formData.get("message"),
+      });
 
       if (response.status === 200) {
         setOpen(true);
