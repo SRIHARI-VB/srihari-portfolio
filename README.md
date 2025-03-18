@@ -4,4 +4,4 @@ Welcome to my portfolio! This repository showcases my professional journey, skil
 
 ## 🌐 Live Demo
 
-Check out my live portfolio here: [Portfolio URL](https://portfolio-link.com)
+Check out my live portfolio here: [Portfolio URL](https://srihari-portfolio-sigma.vercel.app)
