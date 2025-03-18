@@ -61,11 +61,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
 
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
+      // {
+      //   name: "MongoDB",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      // },
     ],
   },
   {
@@ -157,11 +157,11 @@ export const internships = [
         duration: "September 2024 - October 2024",
         desc: "Implemented dynamic layout adjustments to optimize website and application responsiveness based on varying system resolutions using ReactJS and Tailwind CSS. Enhanced user experience by ensuring consistent and adaptive UI across multiple devices and screen sizes.",
       },
-      {
-        title: "Asset Management System",
-        duration: "June 2024 - July 2024",
-        desc: "Developed a comprehensive Asset Management System using ReactJS with hooks and Tailwind CSS for frontend development. Intending to implement functionalities for creating and managing asset categories, asset information, vendor details and service requests and handling API integration to facilitate efficient data retrieval and management.",
-      },
+      // {
+      //   title: "Asset Management System",
+      //   duration: "June 2024 - July 2024",
+      //   desc: "Developed a comprehensive Asset Management System using ReactJS with hooks and Tailwind CSS for frontend development. Intending to implement functionalities for creating and managing asset categories, asset information, vendor details and service requests and handling API integration to facilitate efficient data retrieval and management.",
+      // },
     ],
   },
   {
@@ -192,14 +192,15 @@ export const internships = [
 export const projects = [
   {
     id: 0,
-    title: "Universal Mailing Solution - UMS",
-    date: "Dec 2022 - Jan 2023",
+    title: "Resume Builder",
+    date: "Ongoing",
     description:
-      "The Universal Mailing Solution provides a user-friendly interface that allows users to compose, send, and manage emails from multiple email accounts in one unified application. It supports various email providers, enabling users to send and receive emails from different email logins within the same application.",
-    image: "https://ucarecdn.com/a049512c-e5d6-41de-875c-7d5b3c45eb35/ums.png",
-    tags: ["JavaFx", "Scene Builder", "Java mail API", "SMTP", "IMAPS"],
-    category: "desktop app",
-    github: "https://github.com/SRIHARI-VB/UMS",
+      "A web app that helps users create professional resumes with AI assistance. Built a scalable and responsive platform using ReactJS with TypeScript, Tailwind CSS, Clerk for authentication, and Strapi for efficient backend management. Integrated Gemini AI to provide real-time, personalized content suggestions, enhancing user experience and resume quality.",
+    image: "https://ibb.co/YBtqxK0X",
+    tags: ["ReactJS", "TypeScript", "Tailwind CSS", "Strapi", "AI Integration"],
+    category: "web app",
+    github: "https://github.com/SRIHARI-VB/column-resume-builder",
+    live: "https://column-resume-builder.vercel.app",
     member: [
       {
         name: "SRIHARI V B",
@@ -211,15 +212,15 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Live Weather App",
-    date: "Aug 2023",
+    title: "Mail Craft Template",
+    date: "Ongoing",
     description:
-      "Created an interactive platform delivering real-time weather updates for cities, featuring, user-friendly design and seamless integeration of live data for enhanced user engagement.",
-    image:
-      "https://ucarecdn.com/7b67645b-7c26-4c3f-b4f8-ef8247d4222a/liveweather.png",
-    tags: ["React JS", "Bootstrap", "Styled Components"],
+      "An email template generation tool for streamlined communication. Developed a responsive web application allowing users to create and customize professional email templates with export functionality in HTML or JSON. Utilized modern frontend technologies for a dynamic and user-friendly interface.",
+    image: "https://ibb.co/KcL728X8", 
+    tags: ["ReactJS", "TypeScript", "Tailwind CSS"],
     category: "web app",
-    github: "https://github.com/SRIHARI-VB/WeatherApp",
+    github: "https://github.com/SRIHARI-VB/mail-craft",
+    live: "https://mail-craft-template.vercel.app",
     member: [
       {
         name: "SRIHARI V B",
@@ -230,3 +231,4 @@ export const projects = [
     ],
   },
 ];
+
