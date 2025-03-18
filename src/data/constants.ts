@@ -196,7 +196,7 @@ export const projects = [
     date: "Ongoing",
     description:
       "A web app that helps users create professional resumes with AI assistance. Built a scalable and responsive platform using ReactJS with TypeScript, Tailwind CSS, Clerk for authentication, and Strapi for efficient backend management. Integrated Gemini AI to provide real-time, personalized content suggestions, enhancing user experience and resume quality.",
-    image: "https://ibb.co/YBtqxK0X",
+    image: "https://i.ibb.co/VYvPshwx/resume-builder.png",
     tags: ["ReactJS", "TypeScript", "Tailwind CSS", "Strapi", "AI Integration"],
     category: "web app",
     github: "https://github.com/SRIHARI-VB/column-resume-builder",
@@ -216,7 +216,7 @@ export const projects = [
     date: "Ongoing",
     description:
       "An email template generation tool for streamlined communication. Developed a responsive web application allowing users to create and customize professional email templates with export functionality in HTML or JSON. Utilized modern frontend technologies for a dynamic and user-friendly interface.",
-    image: "https://ibb.co/KcL728X8", 
+    image: "https://i.ibb.co/fVntkT2T/mail-template-creator.png", 
     tags: ["ReactJS", "TypeScript", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/SRIHARI-VB/mail-craft",
