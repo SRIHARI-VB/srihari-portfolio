@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/SRIHARI-VB",
   resume:
-    "https://drive.google.com/file/d/1zKBmHZRhGainvABW37fgp0RB0pLsMDmw/view?usp=sharing",
+    "https://drive.google.com/file/d/11FW22A8wOHMD22Tz5XkKqrCmXDbhsol9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vb-srihari",
   twitter: "https://x.com/__srihari__vb",
   insta: "https://www.instagram.com/__._.srihari._.__",
